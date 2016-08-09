@@ -1,0 +1,492 @@
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: OpenSans-Regular, Arial, sans-serif;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../font/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url('../font/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url('../font/OpenSans-Semibold.ttf') format('truetype');
+}
+
+
+/*--- scroll----*/
+
+::-webkit-scrollbar {
+    background: #909090;
+    width: 6px;
+    height: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e4154;
+    border-radius: 10px;
+}
+
+
+/*--header--*/
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 140px;
+    background-color: #01203d;
+}
+
+header h1 {
+    display: none;
+}
+
+header #sign-in {
+    float: right;
+    margin: 40px 60px 30px 60px;
+}
+
+header #sign-in span {
+    color: #66798a;
+}
+
+header #sign-in a {
+    color: #008cba;
+    margin-left: 10px;
+}
+
+header #sign-in a:hover {
+    text-decoration: underline;
+}
+
+
+/*--navigation--*/
+
+nav {
+    clear: both;
+    margin: 0 auto;
+    width: 1250px;
+    height: 75px;
+}
+
+nav h2 {
+    display: none;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .menu-items ul li {
+    float: left;
+    margin-left: 35px;
+    line-height: 33px;
+}
+
+nav .menu-items li a {
+    color: #66798a;
+}
+
+nav .menu-items li:hover a {
+    color: #FFF;
+}
+
+nav .menu-btn {
+    float: right;
+}
+
+nav .menu-btn span {
+    color: #fff;
+    font-size: 18px;
+    font-family: OpenSans-Bold, Arial, sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+nav .menu-btn span i {
+    margin-right: 5px;
+}
+
+nav .menu-btn button {
+    border: 2px solid #1a3650;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 12px;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+nav .menu-btn .btn-demo {
+    background: transparent;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+nav .menu-btn .btn-demo {
+    background: transparent;
+    cursor: pointer;
+}
+
+nav .menu-btn .btn-demo:hover {
+    background-color: #007095;
+}
+
+nav .menu-btn .btn-signup {
+    background: #a8ea3b;
+    margin-left: 15px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+nav .menu-btn .btn-signup:hover {
+    background-color: #547a13;
+}
+
+
+/*--Banner--*/
+
+#banner {
+    width: 100%;
+    height: 400px;
+    background-image: url('../image/background.png');
+    background-size: cover;
+    position: relative;
+}
+
+#banner img {
+    position: absolute;
+    right: 195px;
+    top: 15px;
+}
+
+#banner .registration {
+    height: 400px;
+    width: 530px;
+    background-color: #034888;
+}
+
+#banner .registration form {
+    padding: 30px;
+    color: #fff;
+}
+
+#banner .registration form h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+#banner .registration form p {
+    padding: 0;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+/*--registration--*/
+
+.registration form input {
+    border-radius: 3px;
+    padding-left: 5px;
+    border: 0;
+    line-height: 30px;
+}
+
+.registration form input[type="text"] {
+    width: 464px;
+    margin-top: 10px;
+}
+
+.registration form input[type="password"],
+.registration form input[type="tel"] {
+    width: 225px;
+    margin-top: 13px;
+}
+
+.registration form input[type="password"] {
+    margin-right: 5px;
+}
+
+.registration form button {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 230px;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 0 2px #094073;
+    padding: 10px 0px
+}
+
+.registration form button strong {
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.registration form button.start-free {
+    background-color: #e58d45;
+    margin-right: 5px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.registration form button.start-free:hover {
+    background-color: #e0741d;
+}
+
+.registration form button.signup-pro {
+    background-color: #88c521;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.registration form button.signup-pro:hover {
+    background-color: #7eb71d;
+}
+
+.registration form .term-services {
+    font-size: 8px;
+    color: #6287b0;
+}
+
+.registration form p.term-services span {
+    color: #fff;
+}
+
+
+/*--customer--*/
+
+section#customer {
+    position: relative;
+    height: 70px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+
+
+section#customer li a h3 {
+    line-height: 65px;
+    font-family: OpenSans-Semibold, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0;
+    color: #919191;
+}
+
+section#customer ul {
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+section#customer ul li {
+    float: left;
+}
+
+section#customer ul li:first-child {
+    margin-right: 40px;
+}
+
+
+/*--features--*/
+
+section#features {
+    border-bottom: 1px solid #d0d0d0;
+    height: 500px;
+}
+
+section#features>div {
+    font-size: 23px;
+    text-align: center;
+    padding: 35px 0px 50px;
+    ;
+}
+
+section#features ul {
+    margin: 0 auto;
+    width: 1250px;
+}
+
+section#features ul li {
+    float: left;
+    width: 230px;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+section#features ul li h3 {
+    color: #0f5599;
+    font-size: 18px;
+    margin: 35px 0px;
+    font-weight: normal;
+    text-align: left;
+}
+
+section#features ul li p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 19px;
+    color: #3e3e3e;
+}
+
+
+/*--customer-voice-*/
+
+section#customer-voice {
+    height: 200px;
+    padding: 30px 0px;
+    margin: 0;
+    border-bottom: 1px solid #d0d0d0;
+}
+section#customer-voice h3 {
+    display: none;
+}
+section#customer-voice #describe {
+    float: left;
+    width: 820px;
+    margin-left: 75px;
+}
+
+section#customer-voice #describe p {
+    font-size: 19px;
+    color: #3e3e3e;
+    line-height: 29px;
+}
+
+section#customer-voice #describe strong {
+    color: black;
+}
+
+section#customer-voice #describe cite {
+    color: #bab7b7;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+section#customer-voice #avatar {
+    float: right;
+    margin-right: 100px;
+}
+
+
+/*--footer--*/
+
+footer {
+    height: 320px;
+}
+
+footer h1 {
+    display: none;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+footer ul li a {
+    font-size: 11px;
+    color: #008cba;
+    line-height: 20px;
+}
+
+footer #menu-footer {
+    text-align: center;
+    height: 270px;
+    width: 1143px;
+    margin: 40px 0px 0px 116px;
+}
+
+
+/*--footer left--*/
+
+footer .left {
+    width: 43%;
+    float: left;
+}
+
+footer .left ul {
+    padding: 0;
+}
+
+footer .left #nav {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+footer .left #resources {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+
+/*--footer right--*/
+
+footer .right {
+    width: 57%;
+    float: right;
+}
+
+footer .right ul {
+    padding: 0;
+}
+
+footer .right #latest {
+    float: left;
+    width: 300px;
+    text-align: left;
+    margin-right: 81px;
+}
+
+footer .right #intouch {
+    float: left;
+    width: 270px;
+    text-align: left;
+    position: relative;
+}
+
+footer .right #intouch img {
+    position: absolute;
+    right: 15px;
+    top: 65px;
+}
+
+footer .right #intouch ul li {
+    font-size: 11px;
+}
+
+
+/*--copy right--*/
+
+footer span {
+    clear: both;
+    font-size: 11px;
+    color: #282626;
+    margin-left: 120px;
+}
