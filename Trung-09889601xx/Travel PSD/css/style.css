@@ -1,0 +1,440 @@
+@font-face {
+    font-family: bignoodle;
+    src: url(../fonts/big_noodle_titling.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
+}
+ 
+#header {
+    background-image: url(http://i.imgur.com/s37xhpx.png);
+    background-repeat: no-repeat;
+     
+    height: 900px;
+    background-size: cover;
+    position: relative;
+}
+#header h1 {
+    display: none;
+    
+}
+#header #slogan  span{
+    margin: 0;
+    font-size: 48.7px;
+    font-family: bignoodle;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+#header #slogan p {
+    margin: 0px;
+    font-family: OpenSans;
+    font-size: 22px;
+    width: 400px;
+    text-align: center;
+    font-weight: normal;
+}
+#header #slogan {
+    float: left;
+    position: absolute;
+    top: 340px;
+    left: 260px;
+    color: #ffffff;
+    text-align: center;
+}
+#header #box {
+    background-image: url(http://i.imgur.com/GPph3OP.png);
+    float: right;
+    margin-top: 185px;
+    margin-right: 190px;
+    height: 500px;
+    width: 440px;
+    text-align: center;
+}
+#box h3, #box p {
+    margin: 0;
+    padding: 0;
+}
+#box h3 {
+    font-family: bignoodle;
+    color: #5f5f5f;
+    font-size: 55px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+#box p {
+    font-family: OpenSans;
+    font-weight: normal;
+    color: #5f5f5f;
+    font-size: 15px;
+}
+#box ul {
+    padding: 0px;
+    margin: 0;
+}
+#box ul li {
+    list-style-type: none;
+    margin: 20px;
+    position: relative;  
+}
+ 
+#box ul li input {
+    border-radius: 5px;
+     width: 340px;
+    height: 50px;
+    border: 0px solid white;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 12.5px;
+}
+#box ul li .submit {
+    background-color: #006fe6;
+    width: 360px;
+    font-family: OpenSans;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#box ul li>a {
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    top: 15px;
+    color: #5f5f5f;
+}
+#header #about {
+     
+    width: 400px;
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    position: absolute;
+    top: 670px;
+    left: 250px;   
+}
+
+/*-------------------------------art1----place--------------------------------------------*/
+
+#place {
+    background-image: url(http://i.imgur.com/AcGvJDB.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+}
+#place h2 {
+    display: none;
+}
+#place p {
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 17px;
+    color: #5f5f5f;
+    width: 720px;
+    margin: 20px auto;
+}
+#place-nav {
+    width:  1100px;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+#place-nav h2 {
+    display: none;
+}
+#place-nav a {
+    font-family: bignoodle;
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;   
+    width: 150px;
+    position: absolute;
+    top: 120px;
+     left: 50px;
+}
+ 
+#place-nav .nav1 {
+    background-image: url(http://i.imgur.com/fSyGq0G.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+     float: left;
+    margin-left: 22px;
+     position: relative;
+}
+#place-nav .nav2 {
+    background-image: url(http://i.imgur.com/LWdNE37.png);   
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+     position: relative;
+    float: left;
+    margin-left: 22px;
+}
+#place-nav .nav3 {
+    background-image: url(http://i.imgur.com/n3iPJqA.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+      position: relative;
+    float: left;
+    margin-left: 22px;
+}
+#place-nav .nav4 {
+    background-image: url(http://i.imgur.com/RlhvsJx.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+      position: relative;
+    float: left;
+    margin-left: 22px;
+}
+/*-----------------------------------------art2-news---------------------------------------*/
+#news {
+    text-align: center;
+}
+#news h3 {
+    font-family: bignoodle;
+    font-weight: normal;
+    font-size: 39px;
+    color: #353535;
+}
+#news p {
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 15px;
+    color: #353535;
+    width: 720px;
+    margin: 20px auto;
+}
+#news .content {
+    overflow: hidden;
+    margin: 20px;
+     
+}
+#news .content ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 400px;
+}
+#news .content ul li .title {                
+    text-align: left;
+    margin-left: 30px;
+}
+#news .content ul li a {
+    text-decoration: none;
+    color: #47a0ff;
+    font-family: OpenSans;
+    font-weight: bold;
+}
+#news .content ul li .infor {
+    padding-left: 30px;
+    float: left;
+}
+#news .content ul li .infor li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+    color: #5f5f5f;
+}
+#news .content ul li span {
+    display: inline-block;
+    font-family: OpenSans;
+    font-weight: normal;
+    float: left;
+    color: #5f5f5f;
+    font-size: 14px;
+    width: 300px;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+/*----------------------------------art2-find-------------------------------------------*/
+
+#find {
+    background-image: url(http://i.imgur.com/hbFv2zp.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+}
+#find h3 {
+    font-family: bignoodle;
+    font-size: 115px;
+    color: #ffffff;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 160px;
+}
+#find p {
+    font-family: bignoodle;
+    color: #ffffff;
+    font-size: 39px;
+    margin: 0;
+}
+#find ul {
+    padding: 0;
+}
+
+#find ul li {
+    list-style-type: none;    
+}
+#find ul li>a {
+    text-decoration: none;
+    border: 0px solid #47a0ff;    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;  
+    background-color: #47a0ff;
+    display: inline-block;
+    position: relative;    
+}
+#find ul li a span {
+    position: absolute;
+    top: 40px;
+    left: 14px;
+    color: #ffffff;
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 12px;
+}
+#find ul li>a:hover {
+    background-color: #5f5f5f;
+    
+}
+/*----------------------------------art3-contact-------------------------------------------*/
+#contact {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 30px;
+    
+}
+ 
+h3 {
+    font-size: 24px;
+    font-family: bignoodle;
+    color: #5f5f5f;
+}
+#contact .finder {
+     float: left;  
+     width: 25%;
+}
+
+.finder p{
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5f5f5f;
+    text-align: left;
+}
+#contact .support {
+    float: left;
+    
+    width: 20%;
+    margin-left: 50px;
+}
+ 
+
+.support a {
+    text-decoration: none;
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 14px;
+    color: #5f5f5f;
+    
+}
+.support p {
+    text-align: left;
+}
+#contact .follow {
+    float: left;
+    width: 25%;
+    
+    
+}
+.follow ul {
+     padding: 0;
+}
+.follow ul li {
+    list-style-type: none;
+     display: inline-block;
+    border: 1px solid #47a0ff;
+    border-radius: 50%;
+    background-color: #47a0ff;
+    width: 20px;
+    height: 20px;
+     padding: 10px;
+    margin-right: 5px;
+    
+}
+.follow ul li>a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 0 0 5px;
+    font-size: 16px;
+}
+#contact .submit { 
+     position: relative;
+     float: left;
+      
+    width: 25%;
+    
+}
+.submit .mail {
+    background-color: #f2f2f2;
+    border: hidden;
+    border-radius: 5%;
+    padding: 15px;
+    color: #5f5f5f;
+    width: 200px;
+   
+}
+.submit .button {
+    background-color: #006fe6;
+    border: hidden;
+    padding: 12px;
+    border-radius: 5px;
+    position: absolute;
+    left: 162px;
+    top: 77px;
+     
+}
+/*----------------------------------footer-------------------------------------------*/
+#footer {
+    border-top: 2px solid #d0d0d0;
+    height: 150px;
+    
+}
+#footer h1 {
+    display: none;
+}
+#footer p {
+    font-family: OpenSans;
+    font-weight: normal;
+    font-size: 13px;
+    color: #5f5f5f;
+    width: 1100px;
+    margin: 20px auto;
+}
