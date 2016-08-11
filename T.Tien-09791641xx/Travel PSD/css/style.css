@@ -1,0 +1,35 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'section.css';
+@import 'font-awesome.min.css';
+@font-face {
+  font-family: "OpenSans-Regular";
+  src:url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "big_noodle_titling";
+  src:url("../fonts/big_noodle_titling.ttf") format("truetype");
+}
+.fl-left{
+	float: left;
+}
+.fl-right{
+	float: right;
+}
+.container{
+	max-width: 1140px;
+	margin:0 auto;
+}
+.clear-fix{
+    clear: both;
+    content: "";
+    display: table;
+}
+.hidden{
+  display: none;
+}
+body{
+	font-family:"OpenSans-Regular", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  line-height: 25px;
+}
