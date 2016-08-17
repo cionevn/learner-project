@@ -1,0 +1,379 @@
+body {   
+    margin: 0 auto;
+ 
+}
+#header {
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#header h4 {
+    display: none;
+}
+#header .logo {   
+     float: left;
+    margin-left: 152px;    
+}
+#header .logo h3 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 49px;
+    font-family: Lobster, arial;
+    color: #3cc3b5;
+    margin-top: 10px;
+}
+#header .search {
+    float: left;
+    color: #dddddd;
+    margin-top: 27px;
+    margin-left: 170px;
+     position: relative;
+}
+#header .search input {
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    width: 436px;
+    height: 33px;
+   padding-left: 10px;
+}
+#header .search i {
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    left: 400px;
+    color: #dddddd;
+}
+ 
+#header .cart {
+    float: left;
+    display: inline ;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+#header .cart img {
+    margin-top: 10px;
+}
+#header .cart span {
+    font-family: BebasNeue, arial;
+    color: #a1a1a1;
+    font-size: 33px;
+    font-weight: normal;
+}
+/*---------------------------nav------------------------------------*/
+
+#nav {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: #4ccfc1;
+}
+#nav h4 {
+    display: none;
+}
+#nav ul {
+    list-style-type: none;
+     width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+#nav ul li {
+    float: left;
+     
+    padding: 10px 0;
+     
+}
+#nav ul li>a {
+    text-decoration: none;
+    font-family: BebasNeue, arial;
+    font-size: 20px;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding: 10px 25px;   
+}
+#nav ul .us>a {
+    border-right: hidden;
+}
+#nav ul li:hover {
+    background-color: black;
+}
+/*----------------------------------banner----------------------------------*/
+
+#banner {
+    max-width: 1366px;
+     
+    margin: 0 auto;
+    background-color: #37c6b6;
+    height: 448px;
+}
+ 
+#banner .product {
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+ 
+#banner .infor {
+    float: left;
+    width: 320px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+#banner .infor h3 {
+    margin: 0;
+    font-family: BebasNeue, arial;
+    font-size: 60px;
+    font-weight: normal;
+    color: #ffffff;
+}
+#banner .infor p {
+    font-family: OpenSans, arial;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 16px;
+    width: 380px;
+}
+#banner a {
+    text-decoration: none;
+    font-family: BebasNeue, arial;
+    font-size: 27px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#banner a:hover {
+    background-color: black;
+}
+
+/*-----------------------------------categories-----------------------------------------*/
+
+#categories {
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+     
+}
+#categories ul {
+    overflow: hidden;
+    padding-left: 100px;
+     
+}
+#categories ul li {
+    list-style-type: none;
+    float: left;
+   
+}
+ 
+.shoes img, .tshirts img, .shorts img {
+    float: left;
+}
+#categories .shoes .topic  {
+    float: left;
+    margin: 0;
+}
+#categories .tshirts .topic, #categories .shorts .topic {
+    float: left;
+    margin-left: 50px;
+}
+.topic p {
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+    color: #afafaf;
+    font-size: 27px;
+    width: 80px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.topic a {
+    font-family: BebasNeue, arial;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: normal;
+    border: 0px solid #3cc395;
+    border-radius: 5px;
+    background-color: #3cc395;
+    padding: 5px 15px;
+    
+}
+.topic a:hover {
+    background-color: black;
+}
+#categories .shoes {
+    padding-right: 90px;
+     
+}
+#categories .tshirts {
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    padding-left: 20px;
+    padding-right: 90px;
+}
+#categories .shorts {
+     padding-left: 40px;
+}
+/*-----------------------------------products-----------------------------------------*/
+#products {
+    max-width: 1366px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#products h3 {
+    
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 31px;
+    background-color: #40c8b1;
+    margin: 0;
+    padding: 15px 0 15px 140px;
+}
+
+/*===================6-product==============*/
+    /*-----------row1----------*/
+.row1 {
+    overflow: hidden;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+.row1 .product1, .row1 .product2, .row1 .product3 {
+    width: 22%;
+    height: 270px;
+    border: 2px solid #dddddd;
+    border-bottom: 4px solid #3cc395;
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+    padding-top: 30px;
+    
+}
+
+.row1 .product1 p, .row1 .product2 p, .row1 .product3 p  {
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+     margin: 10px 0;
+    font-size: 27px;
+    color: #afafaf;
+}
+.row1 .product1 .price, .row1 .product2 .price, .row1 .product3 .price {
+    float: left;
+    margin: 0;
+    margin-left: 75px;
+    margin-right: 10px;
+}
+.row1 .product1 a, .row1 .product2 a, .row1 .product3 a {
+    
+    float: left;
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 0 solid #3cc395;
+    border-radius: 5px;
+    background-color: #3cc395;
+    padding: 5px 10px;
+}
+.row1 .product1 a:hover, .row1 .product2 a:hover, .row1 .product3 a:hover {
+    background-color: black;
+}
+
+        /*-----------row2----------*/
+
+.row2 {
+    overflow: hidden;
+    padding-left: 140px;
+    padding-top: 50px;
+}
+.row2 .product1, .row2 .product2, .row2 .product3 {
+      width: 22%;
+    height: 270px;
+    border: 2px solid #dddddd;
+    border-bottom: 4px solid #3cc395;
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+    padding-top: 30px; 
+}
+.row2 .product1 p, .row2 .product2 p, .row2 .product3 p  {
+      font-family: BebasNeue, arial;
+    font-weight: normal;
+     margin: 10px 0;
+    font-size: 27px;
+    color: #afafaf;
+}
+.row2 .product1 .price, .row2 .product2 .price, .row2 .product3 .price {
+   float: left;
+    margin: 0;
+    margin-left: 75px;
+    margin-right: 10px;
+}
+.row2 .product1 a, .row2 .product2 a, .row2 .product3 a {
+    
+    float: left;
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 0 solid #3cc395;
+    border-radius: 5px;
+    background-color: #3cc395;
+    padding: 5px 10px;
+}
+.row2 .product1 a:hover, .row2 .product2 a:hover, .row2 .product3 a:hover {
+    background-color: black;
+}
+/*--------------------------footer--------------------------------------------*/
+
+        /*======infor========*/
+
+#footer {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+#footer .infor {
+    overflow: hidden;
+    background-color: #3cc3b5;
+    color: #ffffff;
+    padding-left: 140px;
+}
+
+.infor ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+.infor ul li>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: OpenSans, arial;
+    font-weight: normal;
+    font-size: 15px;
+}
+.infor ul li>a:hover {
+    color: black;
+}
+.infor h3 {
+    font-family: BebasNeue, arial;
+    font-weight: normal;
+    font-size: 27px;
+    
+}
+.infor .featured, .infor .men, .infor .women, .infor .link {
+    float: left;
+}
+
+#footer .copyright {
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: #2da89b;
+    font-family: MyriadPro-Light;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+}

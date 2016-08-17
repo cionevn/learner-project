@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster.ttf) format('truetype') ;
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
+}
+/*--Begin-OpenSans-Regular--*/
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+/*--End-OpenSans-Regular--*/
+
+/*--Begin-OpenSans-Bold--*/
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+/*--End-OpenSans-Bold--*/
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url(../fonts/MyriadPro-Light.ttf) format('truetype');
+    font-weight: normal;
+}
