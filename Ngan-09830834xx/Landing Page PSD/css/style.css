@@ -1,0 +1,245 @@
+#container{
+      width:1600px;
+    margin:auto;
+}
+header{
+    margin:auto;
+   
+}
+#banner{
+   
+    height:608px;
+    background-color: #2ecc71;
+    background-image: url("../images/header_bg.png");
+    background-position: 0 10px;
+    background-repeat: no-repeat;
+    
+}
+#banner-content{
+    color:white;
+    font-size: 24px;
+    width:450px;
+    position: relative;
+    left:300px;
+    top:140px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#banner-content ul li{
+    height:53px;
+    width:53px;
+    border-radius: 50%;
+    float:left;
+    margin:16px;
+    background-color: rgba(53,34,25,0.7);
+    box-sizing: border-box;
+    display: flex;
+    /*padding-top:13px;
+    padding-left:14px;*/
+}
+#banner-content ul li>img{
+    display: block;
+    margin: auto;
+    align-self: center;
+}
+#banner-content ul li:hover{
+    background-color: #2ecc71;
+}
+#banner-content h1{
+    font-family: Pacifico;
+    font-size: 60px;
+    margin-bottom: 20px;
+    
+}
+.list-icon{
+    margin-top:30px;
+}
+#dot{
+    color:#2ecc71;
+}
+#feature{
+    height: 275px;
+    padding:60px;
+    overflow: hidden;
+    
+}
+.list-feature{
+    float: left;
+    text-align: center;
+    width:360px;
+    margin-left: 100px;
+}
+#feature .icon-feature{
+    width:99px;
+    height:99px;
+    background-color: #2ecc71;
+    border-radius: 50%;    
+   /* padding-top:25px;
+    box-sizing: border-box;
+   */
+     position: relative;
+    left:120px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+#feature .icon-feature>img{
+    display: block;
+    margin: auto;
+    align-self: center;
+}
+.title-feature{
+    font-family: Raleway;
+    color:#222222;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+#getNotify{
+    height: 320px;
+    background-color: #e3e3e3;
+    padding:57px;
+}
+#getNotify-title{
+    font-family: Raleway;
+    font-size: 22px;
+    color:#222222;
+}
+#getNotify-describe{
+    margin:20px 0;
+}
+#getNotify img{
+    float:right;
+    margin-right: 100px;
+    margin-top:-30px;
+}
+#getNotify-left{
+    width: 540px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+#txtEmail{
+    width: 285px;
+    height: 54px;
+    font-size: 18px;
+    color:#848484;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left:20px;
+    border-style: none;
+}
+#btnNotify{
+    height: 54px;
+    width:140px;
+    background-color: #2ecc71;
+    font-family: Raleway;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    left:-3px;
+    top:2px;
+    border-style: none;
+}
+#btnNotify:hover{
+    background-color: aquamarine;
+}
+#testimonials{
+    text-align: center;
+    margin-top:40px;
+}
+#testimonials #quote{
+    margin: 0 auto;
+    width: 850px;
+    font-size: 18px;
+    font-style: italic;
+}
+#testimonials #author{
+    font-family: Raleway;
+    font-weight: bold;    
+    color:#2e2e2e;
+    margin: 20px 0;
+}
+#icon-portrail{
+    width: 1300px;
+    margin:20px auto;
+}
+#icon-portrail ul li{
+    float:left;
+    margin: 5px;
+    height:50px;
+    position: relative;
+}
+#icon-portrail ul li>img{
+    float:left;
+}
+#icon-portrail .overlay{
+    width: 51px;
+    height: 50px;
+    position: absolute;
+    left:0;
+}
+#icon-portrail .overlay:hover{
+    background-color: rgba(90,157,90,0.7);
+}
+#get-in-touch{
+    text-align: center;
+}
+#get-in-touch > h1{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#social-icon{
+    width:400px;
+    margin: auto;
+}
+#social-icon ul li{
+    float: left;
+    margin: 30px 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #d4d4d4;
+    box-sizing: border-box;    
+    display: flex;
+}
+#social-icon ul li>img
+{
+   align-self: center;
+    display: block;
+    margin: auto;
+}
+#social-icon ul li:hover{
+    background-color: #62d995;
+}
+footer{
+    background-color: #e3e3e3;
+    text-align: center;
+    margin: auto;
+    height:70px;
+    display: flex;
+    padding:60px;
+}
+
+footer ul{
+    margin: auto;
+}
+footer ul li{
+    float:left;
+    margin: 35px;
+    text-align: center;
+}
+footer ul li>a{
+    color:#848484;
+    text-decoration: none;
+}
+footer ul li>a:hover{
+    color:darkseagreen;
+}
