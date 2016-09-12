@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue/helveticaneue.ttf");
+}
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue/helveticaneueitalic.ttf");
+    font-style: italic;
+}
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue/helveticaneuebold.ttf");
+    font-weight:bold;
+}
+@font-face{
+    font-family: "Helvetica Neue";
+    src: url("../fonts/HelveticaNeue/helveticaneuemedium.ttf");
+    font-weight: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue","Times New Roman", Arial, sans-serif;
+    font-size: 14px;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #3498db;
+}
+section{
+    overflow: hidden;
+}
