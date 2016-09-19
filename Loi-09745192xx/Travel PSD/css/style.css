@@ -1,0 +1,415 @@
+@font-face {
+    font-family: big_noodle_titling;
+    src: url(../fonts/big_noodle_titling.ttf);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big_noodle_titling{
+    font-family: big_noodle_titling, sans-serif;
+    font-size: 16px;
+}
+/* max width */
+.max-width{
+    max-width: 1366px;
+}
+
+/* position relative, absolute*/
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/* position & clear-fix */
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear-fix:before, .clear-fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* text align center */
+.text-align-center{
+    text-align: center;
+}
+
+/* text-transform: uppercase */
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* width=100% */
+.full-width{
+    width: 100%;
+}
+
+/* disappear element */
+.disappear{
+    display: none;
+}
+
+/* circle border */
+.circle-border{
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+/*-------------- Container -----------------*/
+
+/* ----Header----*/
+.wrap-header{
+    max-width: 1366px;
+    height: 1079px;
+    background-image: url(../images/bg-header.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* slogan*/
+.slogan{
+    top: 414px;
+    left: 130px;
+    width: 550px;
+   
+}
+
+.slogan>h2{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.slogan>p{
+    font-size: 28px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* search-tours*/
+.search-tours{
+    background-color: white;
+    color: #606060;
+    top: 220px;
+    left: 700px;
+    width: 420px;
+    padding: 30px 40px;
+    z-index: 30;
+}
+
+.search-tours>h2{
+    font-size: 70px;
+    margin: 0;
+}
+
+.search-tours>p{
+    font-size: 20px;
+  
+}
+
+
+.icon{
+    right: 15px;
+    top: 20px;
+}
+.input-prepend>input{
+    padding: 12px 20px;
+    margin: 6px 0 25px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.search-tours>button{
+    font-weight: bold;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0 25px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #006fe6;
+}
+
+
+/* description */
+
+.description{
+    top: 738px;
+    height: 203px;
+    background-color: #438fdf;
+    opacity: 0.85;  
+}
+
+.description>p{
+    font-size: 20px;
+    line-height: 25px;
+    width: 536px;
+    margin: 50px 150px;
+    color: #e2ebf8;
+}
+
+
+/* main content */
+
+
+.main-tour-place{
+    background-image: url(../images/Layer%206.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 144px;
+}
+
+
+.intro-place{
+    width: 984px;
+    padding-top: 43px;
+}
+
+.intro-place>p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #8b8e91;
+}
+
+.wrap-tour-place{
+    width: 1170px;
+}
+
+.tour-place{
+    width: 253.5px;
+    height: 253.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 39px;
+}
+.tour-amazone{
+    background-image: url(../images/amazon-cruise.png);
+}
+
+.tour-san{
+    background-image: url(../images/san-francisco.png);
+}
+
+.tour-north{
+    background-image: url(../images/north-america.png);
+}
+
+.tour-south{
+    background-image: url(../images/south-america.png);
+}
+
+
+.tour-place>a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 33.92px;
+    color: white;
+    margin-top: 110px;
+    
+}
+
+
+.intro-event{
+    width: 950px;
+    
+}
+
+.intro-event>p{
+    font-size: 20px;
+    color: #c7d7e6;
+    margin: 0 0 69px;
+}
+
+.intro-event>h2{
+    font-size: 50px;
+    color: #353535;
+    margin-top: 73px;
+    margin-bottom: 45px;
+}
+
+.event-content{
+    width: 1151px;
+}
+
+.news-event{
+    width: 351px;
+    margin-right: 49px;
+    margin-bottom: 91px;
+}
+
+.news-event>img{
+    width: 351px;
+    height: 231px;
+}
+
+.news-event>h2{
+    font-weight: bold;
+    font-size: 18px;
+    color: #47a0ff;
+    margin: 33px 13px 27px;
+}
+
+.news-event>p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #606060;
+    margin-left: 13px;
+    margin-bottom: 39px;
+}
+
+.news-event a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #47a0ff;
+    margin: 0 74px 0 11px;
+}
+
+.bottom-banner{
+    height: 698px;
+    background-image: url(../images/Bottam-banner.png);
+}
+
+.bottom-banner>div{
+    width: 716px;
+    padding-top: 200px;
+}
+.bottom-banner h2{
+    font-size: 147.9px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.bottom-banner h3{
+    font-size: 50px;
+    color: white;
+    margin: 0 0 33px;
+}
+
+.bottom-banner a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #47a0ff;
+    display: inline-block;
+    width: 157px;
+    height: 87px;
+    padding-top: 70px;
+}
+
+
+.footer{
+    width: 1166px;
+}
+
+.footer-article-content>p{
+   font-size: 15px;
+   color: #606060; 
+}
+
+.findfinder{
+    width: 308px;
+    margin-right: 57px;
+    
+}
+
+.support{
+    width: 122px;
+    margin-right: 90px
+}
+
+.support a{
+    text-decoration: none;
+    color: #606060;
+}
+
+.follow-us{
+    width: 232px;
+    margin-right: 70px;
+}
+
+.follow-us>a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #47a0ff;
+}
+
+.follow-us i{
+    margin-top: 15px;
+}
+.newsletter{
+    width: 276px;
+    margin-right: 0;
+}
+
+.footer-article-content>h2{
+    font-size: 30px;
+    color: #606060;
+    margin-top: 92px;
+}
+
+.newsletter>input{
+    padding: 20px 71px 20px 20px;
+    margin: 6px 0 25px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.newsletter>button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #47a0ff;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    top: 167px;
+    right: 5px;
+    padding: 12px 10px;
+}
+
+.footer>h2{
+    display: none;
+}
+
+.footer-content{
+    border-top: 1px solid #d0d0d0;
+    margin-top: 101px;
+}
+
+.footer-content>h2{
+    display: none;
+}
+
+.footer-content>p{
+    font-size: 13px;
+    color: #606060;
+    margin: 24px 92px 117px;
+    
+}
+/*margin right=0 */
+.margin-right-0{
+    margin-right: 0;
+}
+
+/*margin right=10 */
+.margin-right-10{
+    margin-right: 10px;
+}
+
+/* margin auto */
+.margin-auto{
+    margin: 0 auto;
+}
