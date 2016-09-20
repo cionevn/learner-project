@@ -1,0 +1,315 @@
+#search-box{
+    background-image: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-width: 900px;
+    background-size: cover;
+    height: 950px;
+    
+    box-sizing: border-box;
+}
+#search-tour{
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-left: 20%;
+    position: relative;
+    text-align: center;
+}
+#search-tour>h1{
+    font-size: 70px;
+    font-family: BigNoodleTitling,"Times New Roman";
+    padding-top: 20px;
+}
+#search-tour p{
+    margin-bottom: 15px;
+}
+
+#search-tour .txtTextBox{
+    width: 330px;
+    height: 50px;
+    margin: 1px 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-style: none;
+}
+#search-tour .btbSubmit{
+    background-color: #006fe6;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 25px;    
+}
+.btbSubmit{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#rectangle-line{
+    height: 100px;
+    background-color: rgba(0,111,230,0.8);
+    position: relative;
+    top:650px;
+    color:white;
+    padding: 50px 0;
+}
+#rectangle-line p{
+    width: 35%;
+    padding-left: 15%;
+    
+    
+}
+.container-introduce{
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+#introduction{
+    color:white;
+    margin-top: 100px;
+    float: left;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 20%;
+}
+#introduction h1{
+    font-family: BigNoodleTitling,"Times New Roman";
+    font-size: 62px;
+}
+#introduction p{
+    font-size: 30px;
+}
+#container-search{
+    overflow: hidden;
+    height: 600px;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.intro-tour-type{
+    text-align: center;
+    padding: 40px 300px;
+    min-width: 750px;
+}
+.tour-type-area{
+    background-image: url("../images/tour_area_bg.png");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 80%;
+    
+}
+.group-tour{
+    overflow: hidden;
+    width: 1000px;
+    margin: 30px auto;
+}
+.group-tour ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.group-tour ul li{
+    float:left;
+    margin: 10px;
+}
+.type-tour{
+    display: inline-block;
+    width: 230px;
+    height: 125px;
+    background-color: black;
+    background-image: url("../images/north_america_bg1.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 105px;
+    color: white;
+    font-family: BigNoodleTitling,"Times New Roman";
+    font-size: 34px;
+    text-decoration: none;
+    background-size: cover;
+    background-position: -30px 0px;
+}
+.group-tour ul li:nth-child(2)>a{
+    background-image: url("../images/north_america_bg2.png");
+    background-position: 0;
+}
+.group-tour ul li:nth-child(3)>a{
+       background-image: url("../images/San_fran_bg.png");
+}
+.group-tour ul li:nth-child(4)>a{
+    background-image: url("../images/Amazon_bg.png");
+}
+.group-tour ul li>a:hover{
+    opacity: 0.5;
+}
+.news-area{
+    margin-top: 40px;
+    text-align: center;
+}
+.news-area>p{
+    padding: 0 20%;
+}
+.title-news-events{
+    font-family: BigNoodleTitling,"Times New Roman";
+    font-size: 50px;
+}
+.list-news{
+    width: 320px;
+    font-size: 15px;
+    float: left;
+    margin: 20px;
+    text-align: initial;
+    
+}
+.list-news>img{
+    width: 300px;
+    height: 200px;
+}
+.list-news >h5{
+    color:#47a0ff;
+    font-size: 18px;
+    margin: 20px 0px;
+    padding-left: 15px;
+}
+.summary{
+    margin: 20px 0;
+    padding: 0 15px;
+    text-align: left;
+}
+.header-article-news{
+    padding-left: 15px;
+}
+.header-article-news .news-date{
+    float: right;
+    padding-right: 50px;
+    
+}
+#article-news{
+    overflow: hidden;
+    width: 1100px;
+    margin: auto;
+}
+.right-icon{
+    position: relative;
+    float: right;
+    right: 50px;
+    top:-35px;
+}
+.luxury-travel{
+    text-align: center;
+    color:white;
+    background-color: black;
+    background-image: url("../images/luxury-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+    padding-top: 170px
+}
+.luxury-travel h2, .luxury-travel p{
+    font-family: BigNoodleTitling,"Times New Roman";
+    font-size: 148px;
+
+}
+.luxury-travel p{
+    font-size: 50px;
+}
+.find-tour-button{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #47a0ff;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.find-tour-button:hover{
+    background-color: royalblue;
+}
+.info-contact{
+    height: 160px;
+}
+.info-contact  .title-info{
+    font-family: BigNoodleTitling,"Times New Roman";
+    font-size: 30px;
+    margin: 20px 0;
+}
+.detail-info{
+    font-size: 13px;
+}
+.support ul{
+    list-style-type: none;
+}
+.support ul li>a{
+    text-decoration: none;
+    color:#5f5f5f;
+    line-height: 25px;
+}
+.follow-us{
+    list-style-type: none;
+    overflow: hidden;
+}
+.follow-us li{
+    float: left;
+    margin: 5px;
+    
+}
+.follow-us li>a{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #47a0ff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.follow-us li>a:hover{
+    background-color: cornflowerblue;
+}
+#txtEmail{
+    height: 55px;
+    width: 190px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    border-style: none;
+    padding-right: 90px;
+    padding-left: 10px;
+}
+#btnSubmit{
+    height: 45px;
+    width: 75px;
+    background-color: #006fe6;
+    border-radius: 5px;
+    border-style: none;
+    position: relative;
+    left:-85px;
+    
+}
+.group-info-contact{
+    float: left;
+    margin-right: 50px;
+}
+.info-contact{
+    overflow: hidden;
+    width:1130px;
+    margin: 50px auto;
+    padding-left: 70px;
+    
+}
+.copyright{
+    font-size: 13px;
+    width: 1130px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
