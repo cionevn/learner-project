@@ -1,0 +1,280 @@
+header{
+    height: 118px;
+}
+.top-banner{
+    width: 1024px;
+    margin: auto;
+    height: 82px;
+}
+.logo{
+    color: #3cc3b5;
+    font-family: Lobster, "Open Sans", Arial,sans-serif;
+    font-size: 30px;
+    float: left;
+    margin-right: 170px;
+    line-height: 82px;
+    margin-left: 25px;
+    
+}
+.search-cell{
+    color:#e3e3e3;
+    float: left;
+    margin-top: 26px;
+}
+.search-cell input{
+    height: 32px;
+    width:437px;
+    border: 1px solid #e3e3e3;
+    padding-right: 30px;
+}
+.search-cell label{
+    position: relative;
+    left: -30px;
+    font-size: 22px;
+    top:4px;
+    
+}
+.cart{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.cart img{
+    width: 42px;
+    height: 38px;
+    margin-right: 15px;
+    
+}
+.cart span{
+    font-family: "Bebas Neue", "Open Sans", Arial,sans-serif;
+    font-size: 33px;
+    color: #a1a1a1;
+    position: relative;
+    top:-3px
+}
+nav{
+    height: 36px;
+    background-color: #4ccfc1;
+}
+.side-nav{
+    width: 1024px;
+    margin: 0 auto;
+}
+.side-nav ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 6px;
+}
+.side-nav ul li{
+    float:left;
+    padding: 0 22px;
+    border-left: 2px solid white;
+}
+.side-nav ul li:first-child{
+    border-left-style: none;
+}
+.side-nav ul li>a{
+    color: white;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.side-nav ul li>a:hover{
+    color:darkgoldenrod;
+}
+.section-banner{
+    height: 445px;
+    background-color: #3fc6b2;
+}
+.banner{
+    clear: both;
+    width: 1024px;
+    margin: auto;
+}
+.img-banner{
+    float: left;
+    margin-top: 60px;
+    margin-left: 78px;
+    
+}
+.description{
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;;
+}
+.description h2{
+    color: white;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    font-size: 61px;
+}
+.description p{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.description button{
+    width:140px;
+    height: 47px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    font-size: 27px;
+    padding-top: 5px;
+}
+.description button:hover{
+    background-color: darkgoldenrod;
+}
+.catalogue{
+    width: 1024px;
+    margin: auto;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    height: 190px;
+}
+.catalogue ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.catalogue ul li{
+    float:left;
+    padding-right: 60px;
+    width: 254px;
+    padding-left: 25px;
+    border-left: 1px solid #e7e7e7;
+    height: 165px;
+    padding-top: 25px
+}
+.catalogue .brand-left{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.catalogue .brand-right{
+    float: right;
+}
+.title-products,.price{
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    color: #afafaf;
+    font-size: 27px;
+}
+.catalogue .brand-right button{
+    width:60px;
+    height: 32px;
+    background-color: #3cc395;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 19px;
+    margin-top: 20px;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+}
+.catalogue ul li:first-child{
+    border-left-style: none;
+}
+.title-line{
+    background-color: #3bbfba;
+    height: 68px;
+}
+.title-featured-product{
+    width:1024px;
+    margin: auto;
+}
+.title-featured-product h2{
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    font-size: 31px;
+    color: white;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.container-list-products{
+    width: 1024px;
+    margin: auto;
+    margin-bottom: 72px;
+}
+.list-products{
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.list-products li{
+    float: left;
+    width: 250px;
+    height: 233px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 5px solid #3cc395;
+    margin-left: 52px;
+    margin-top: 47px;
+    text-align: center;
+    padding-top: 22px;    
+    
+}
+.list-products li button{
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #3cc395;
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.list-products li button:hover,.catalogue .brand-right button:hover{
+    background-color: #a5bc4a;
+}
+.copyright{
+    font-family: "Myriad Pro Light", "Open Sans", Arial,sans-serif;
+    font-size: 15px;
+    height: 30px;
+    background-color: #2da89b;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+footer{
+    background-color: #3cc3b5;
+    height: 383px;
+}
+.more-information{
+    width: 984px;
+    margin: auto;
+    height: 338px;
+    padding-left: 40px;
+}
+.more-information ul{
+    list-style: none;
+    overflow: hidden;
+}
+.more-information .group-info{
+    float: left;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.title-more-info{
+    font-family: "Bebas Neue","Open Sans", Arial,sans-serif;
+    color: white;
+    font-size: 27px;
+}
+.list-more-info{
+    padding: 0;
+    margin-top: 15px;
+}
+.list-more-info li>a{
+    color: white;
+    text-decoration: none;
+    line-height: 28px;
+}
+button{
+    cursor: pointer;
+}
+.invissible{
+    display: none;
+}
