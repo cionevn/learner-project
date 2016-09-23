@@ -1,0 +1,13 @@
+@import url("font-style.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1170px;
+    margin: auto;
+    font-family: Merriweather, Arial, sans-serif, serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #f8f8f8;
+}

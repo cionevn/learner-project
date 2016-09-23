@@ -1,0 +1,132 @@
+header{
+    margin-top: 99px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+.logo{
+    float: left;
+    width: 200px;
+}
+.logo img{
+    float: left;
+}
+nav{
+    float: right;
+    
+    background-color: #ff9311;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    margin-right: -30px;
+}
+nav ul li{
+    float: left;
+    margin: 0 32px;
+}
+.invissible{
+    display: none;
+}
+nav ul li>a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+nav ul li>a:hover{
+    color: darkred;
+}
+.designer-info{
+    height: 188px;
+    background-color: #f5f5f5;
+    margin-bottom: 97px;
+}
+.designer-info img{
+    float: left;
+    margin-right: 28px;
+}
+.designer-info p{
+    padding-top: 35px;
+    line-height: 30px;
+    color: #999999;
+}
+.designer-info button{
+    height: 45px;
+    width:170px;
+    background-color: #ff9311;
+    border-style: none;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    bottom: 50px;
+    color: white;
+}
+.designer-info .info-detail{
+    color: #424242;
+}
+.container-content ul{
+    list-style: none;
+    overflow: hidden;
+}
+.container-content ul li{
+    float: left;
+    margin-bottom: 30px;
+}
+.container-content ul li img{
+    width: 572px;
+    height: 430px;
+}
+.container-content ul li>a:hover{
+    background-color: #ff9311;
+    opacity: 0.6;
+}
+.container-content ul li:nth-child(odd){
+    float: left;
+}
+.container-content ul li:nth-child(even){
+    float: right;
+}
+.container-content{
+    margin-bottom: 150px;
+}
+.container-content ul li>a{
+    display: inline-block;
+    width: 572px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.yellow{
+    color: #ff9311;
+}
+.social-media{
+    margin-bottom: 20px;
+    
+}
+.social-media ul{
+    list-style: none;
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+}
+.social-media ul li{
+    float: left;
+    width:32px;
+    height: 16px;
+    border-left: 1px solid #e3e3e3;
+}
+.social-media ul li:first-child{
+    border-left-style: none;
+}
+.social-media ul li>a{
+    color: #424242;
+    text-decoration: none;
+}
+.social-media ul li>a:hover{
+    color:#ff9311;
+}
+.designer-info button:hover{
+    background-color: darksalmon;
+    cursor: pointer;
+}
