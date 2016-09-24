@@ -1,0 +1,154 @@
+body{
+    font-family: Merriweather, serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* margin left = 30 */
+.margin-left{
+    margin-left: 30px;
+}
+
+/* position & clear-fix */
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear-fix:before, .clear-fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*---------------Header--------------------*/
+header{
+    max-width: 1366px;
+    padding : 99px 100px 51px;
+}
+
+header ul{
+    width: 720px;
+    list-style: none;
+    background-color: #ff9311;
+    padding: 0;
+    margin: 0;
+}
+
+header ul>li{
+    line-height: 39px;
+    color: white;
+    width: 120px;
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header ul>li>a{
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul>li>a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+header h2{
+    display: none;
+}
+/*----------------- author--------------------*/
+
+
+.author{
+    max-width: 1366px;
+    padding: 0 100px;
+}
+
+.author-img{
+    margin-right: 30px;
+}
+
+.author span{
+    color: #b4b4b4;
+}
+
+.author p{
+    color: #737373;
+}
+
+.info{
+    margin-top: 38px;
+}
+.contact{
+    margin: 100px 28px 43px;
+}
+
+.contact a
+{
+    display: block;
+    width: 170px;
+    height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    line-height: 44px;
+    padding: 0 16px;
+    background-color: #ff9311;
+}
+
+
+/*---------------------contents----------------------*/
+
+section>h2{
+    display: none;
+}
+.contents{
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 98px;
+}
+
+.contents ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.contents ul>li{
+    float: left;
+}
+
+/*---------------------footer----------------------*/
+
+footer{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 68px 0 164px;
+    text-align: center;
+}
+
+footer>a{
+    font-size: 20px;
+    margin: 0 5px;
+    color: #424242;
+}
+
+footer>a:hover{
+    color: #ff9311;
+}
+
+footer>p{
+    color: #424242;
+}
+
+footer>p>a{
+    color: #ff9311;
+    text-transform: uppercase;
+    text-decoration: none;
+}
