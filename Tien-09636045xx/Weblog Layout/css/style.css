@@ -1,0 +1,237 @@
+@import url('blog-cione-style-reset.css');
+@import url('cart-font.css');
+html{
+	font-family: 'myFontRegular', Helvetica, Arial, sans-serif;
+	height: 100%;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.hidden{
+	display: none;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.line{
+	border-bottom: 1px solid #ccc5b9;
+	padding-bottom: 40px;
+}
+#container{
+	width: 1160px;
+	background-color: rgba(236, 240, 241,1.0);
+	margin: 20px auto;
+	padding: 30px 100px;
+	border-bottom: 5px solid rgba(52, 73, 94,1.0);
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+/*=========================HEADER==========================*/
+header#header{
+	margin-bottom: 100px;
+}
+header .shop-link li{
+	float: left;
+	margin-right: 20px;
+}
+	header .shop-link li:first-child a{
+		font-size: 26px;
+		color: #403D39;
+	}
+	header .shop-link li:last-child a{
+		font-size: 26px;
+		color: #A49E93;
+	}
+	header .shop-link li > span{
+		background: url('http://i.imgur.com/mynGLiT.png') center center no-repeat;
+		display: block;
+		width: 7px;
+		height: 25px;
+		content: "";
+	}
+header #shop-info li{
+	float: left;
+	margin-left: 20px;
+}
+	header #shop-info li:first-child a{
+		font-size: 16px;
+		color: #A49E93;
+		margin-right: 20px;
+		line-height: 27px;
+	}
+	header #shop-info li:last-child a{
+		font-size: 17px;
+		color: #A49E93;
+		line-height: 25px;
+		font-family: 'myFontBold', Helvetica, Arial, sans-serif;
+	}
+	header #shop-info li > span{
+		background: url('http://i.imgur.com/QZMsUjR.png')center bottom no-repeat;
+	    background-size: 30px;
+	    color: #FFFCF5;
+	    display: block;
+	    width: 30px;
+	    height: 34px;
+	    margin-top: -10px;
+	    font-family: 'myFontBold', Helvetica, Arial, sans-serif;
+	    text-align: center;
+	    line-height: 45px;
+	}
+/*=========================MAIN==========================*/
+#section-main > #title{
+	font-family: 'myFontBold';
+	font-size: 46px;
+	color: #A49E93;
+	padding: 20px 0px;
+}
+	#section-main #title-info ul li{
+		float: left;
+		margin: 0px 0px 20px 150px;
+		font-size: 18px;
+		color: #A49E93;
+	}
+	#section-main .cart-item{
+		padding-top: 40px;
+	}
+		#section-main .cart-item .item-info{
+			width: 495px;
+			float: left;
+		}
+			#section-main .cart-item .item-info img{
+				width: 150px;
+				height: 90px;
+				float: left;
+				margin-right: 40px;
+			}
+			#section-main .cart-item .item-info > span.item-name{
+				font-family: 'myFontBold';
+				font-size: 20px;
+				color: #403D39;
+			}
+			#section-main .cart-item .item-info .item-description{
+				color: #403D39;
+				font-size: 18px;
+				float: left;
+				line-height: 35px;
+			}
+		#section-main .cart-item .item-price{
+			width: 160px;
+			float: left;
+			line-height: 90px;
+		}
+			#section-main .cart-item .item-price .price{
+				font-size: 20px;
+				color: #403D39;
+			}
+		#section-main .cart-item .item-quantity{
+			width: 200px;
+			float: left;
+			line-height: 90px;
+		}
+			#section-main .cart-item .item-quantity > span.quantity{
+				color: #403D39;
+				font-size: 18px;
+				margin-right: 10px;
+			}
+			#section-main .cart-item .item-quantity > button{
+			    border: 2px solid #A49E93;
+			    width: 40px;
+			    height: 30px;
+			    font-size: 20px;
+			    color: #A49E93;
+			    outline: none;
+			}
+			#section-main .cart-item .item-quantity > button:hover{
+				background-color: #A49E93;
+				color: #fff; 
+				cursor: pointer;
+			}
+			#section-main .cart-item .item-quantity > button.btndiv{
+				border-right: none;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+			#section-main .cart-item .item-quantity > button.btnadd{
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+				margin-left: -5px;
+			}
+		#section-main .cart-item .item-cash{
+			float: left;
+			line-height: 90px;
+			text-align: right;
+		    width: 90px;
+		}
+			#section-main .cart-item .item-cash .cash{
+				font-family: 'myFontBold';
+				font-size: 20px;
+				color: #403D39;
+			}
+/*============================FOOTER========================*/
+.cart-total{
+	padding: 40px 0px;
+	text-align: right;
+}
+	.cart-total #total{
+		font-size: 18px;
+	    color: #A49E93;
+	    font-family: 'myFontBold';
+	}
+.cart-shipping{
+	width: 600px;
+	text-align: right;
+	float: left;
+}
+	.cart-shipping #select_ship{
+		margin-top: 20px;
+		border:none;
+		outline: none;
+	    height: 34px;
+	    width: 100px;
+		visibility: visible;
+		text-align: center;
+	    background: url('http://i.imgur.com/e1ttqTT.png') no-repeat left center;
+	    padding-left: 24px;
+	}
+.cart-checkout{
+	width: 346px;
+	float: right;
+	text-align: right;
+}
+	.cart-checkout #btncheckout{
+		width: 250px;
+		height: 50px;
+		text-align: right;
+		color: #FFC0A4;
+		border-radius: 25px;
+		border: 1px solid #e74c3c;
+		font-size: 18px;
+		background-color: #e74c3c;
+		padding-right: 25px;
+		outline: none;
+		cursor: pointer;
+	}
+	.cart-checkout #btncheckout:hover{
+		border: 1px solid #c0392b;
+		background-color: #c0392b;
+	}
+	.cart-checkout #btncheckout #text-checkout{
+		margin-right: 10px;
+	}
+	.cart-checkout #btncheckout #arrow{
+		background:  url('http://i.imgur.com/9kxoZ96.png') no-repeat;
+		background-position: 0px 2px;
+		padding: 0px 2px;
+	}
+		

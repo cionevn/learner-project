@@ -1,0 +1,307 @@
+@import url('blog-cione-style-reset.css');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0px auto;
+}
+hr{
+	clear: both;
+	border: none;
+	border-top: 1px solid #ddd;
+}
+/*=========================HEADER=======================*/
+header{
+	width: 100%;
+	background-color: #01203d;
+	height: 130px;
+}
+.menu-head-top{
+	width: 1150px;
+	margin: 0px auto;
+}
+	.menu-head-top .menu-top-signin{
+		float: right;
+		margin-top: 30px;
+	}
+		.menu-head-top .menu-top-signin > span{
+			color: #66798a;
+		}
+		.menu-head-top .menu-top-signin > a{
+			color: #008cba;
+			margin-left: 10px;
+			
+		}
+nav{
+	clear: both;
+	width: 1150px;
+	margin: 0px auto;
+	height: 73px;
+	line-height: 73px;
+}
+	nav .logo{
+		float: left;
+	}
+		nav .logo img{
+			margin-top: 23px;
+		}
+.menu-items ul li{
+	float: left;
+	margin: 0px 15px;
+}
+	.menu-items ul li a{
+		color: #94a5b4;
+	}
+.menu-buttons span{
+	color: #fff;
+	font-size: 18px;
+	margin-right: 40px;
+	font-weight: bold;
+}
+	.menu-buttons span img{
+		margin-right: 5px;
+	}
+	nav .menu-buttons button{
+		border: 2px solid;
+		border-radius: 3px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 14px;
+		margin-left: 15px;
+		padding: 10px 25px;
+	}
+	nav .menu-buttons .btn-demo{
+		background-color: transparent;
+		border-color: #1a363c;
+	}
+	nav .menu-buttons .btn-sign{
+		background-color: #81bc1e;
+		border-color: transparent;
+		margin-left: 14px;
+	}
+/*---------------------------banner-----------------------*/
+.banner{
+	background: url('http://i.imgur.com/QGnLN5f.png');
+	background-size: cover;
+	height: 410px;
+	margin: 0px auto;	
+}
+	.banner .registration{
+		background: url('http://i.imgur.com/0OQ65Lp.png') no-repeat;
+		background-position: 87% 2%;
+	}
+	.banner .registration form{
+		padding: 30px;
+		width: 475px;
+		background-color: #034888;
+		color: #fff;
+		height: 350px;
+	}
+		.banner .registration form h1{
+			font-size: 38px;
+			font-weight: 800;
+			color: #fff;
+		}
+		.banner .registration form p{
+			font-size: 12px;
+			margin-top: 10px;
+		}
+		.banner .registration form input{
+			color: #8f8d8d;
+			line-height: 38px;
+			font-size: 12px;
+			border-radius: 3px;
+			border:0px;
+			margin: 10px 0px;
+			padding-left: 5px;
+			outline: none;
+		}
+		.banner .registration form input[type="email"]{
+			width: 449px;
+		}
+		.banner .registration form input[type="password"],
+		.banner .registration form input[type="tel"]{
+			width: 218px;
+		}
+		.banner .registration form input[type="tel"]{
+			margin-left: 5px;
+		}
+		.banner .registration form button{
+			color: #fff;
+			text-shadow: 1px 1px 0px #9e9d9d;
+			padding: 10px 0px;
+			width: 223px;
+			border-radius: 3px;
+			border:0px;
+			margin: 0px;
+			box-shadow: 0 0 2px #094073;
+			height: 65px;
+		}
+			.banner .registration form button strong{
+				text-transform: uppercase;
+				font-size: 19px;
+				display: block;
+			}
+			.banner .registration form button small{
+				font-size: 10px;
+			}
+		.banner .registration form button[type="submit"]{
+			background-color: #e0741d;
+		}
+		.banner .registration form button[type="button"]{
+			background-color: #72a61a;
+			margin-left: 5px;
+		}
+		.banner .registration form .term{
+			font-size: 10px;
+			padding-left: 30px;
+		}
+/*----------------------customer------------------------*/
+.customer-list{
+	margin-left: 96px;
+	margin-top: 24px;
+}
+	.customer-list li{
+		float: left;
+		margin:0px 15px;
+		height: 65px;
+	}
+		.customer-list > li > img{
+			width: 90px;
+		}
+	.customer-list li:first-child{
+		color: #686767;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-right: 56px;
+		line-height: 65px;
+	}
+/*------------------------feature----------------------*/
+.features{
+	clear: both;
+}
+	.features .slogan{
+		text-align: center;
+		font-size: 23px;
+		padding: 40px;
+	}
+		.features .slogan > strong{
+			font-weight: bold;
+		}
+		.features .slogan > span{
+			color: 	#3f3f3f;
+		}
+	.features ul{
+		width: 1164px;
+		margin: 0px auto;
+	}
+		.features ul li{
+			float: left;
+			width: 217px;
+			padding:0px 37px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+			.features ul li > img{
+				height: 101px;
+			}
+			.features ul li > h4,
+			.features ul li > p{
+				text-align: left;
+				font-style: normal;
+				font-weight: normal;
+			}
+			.features ul li > h4{
+				color: #0f5599;
+				font-size: 18px;
+				margin: 35px 0px;
+			}
+			.features ul li > p{
+				font-size: 14px;
+				color: #686767;
+				line-height: 20px;
+			}
+/*------------------------testimonials----------------------*/
+.testimonials{
+	width: 1090px;
+	clear: both;
+	margin: 0px auto;
+	
+}
+	.testimonials .testimonials-left{
+		width: 70%;
+		float: left;
+		margin-bottom: 45px;
+	}
+		.testimonials .testimonials-left blockquote{
+			margin: 0px;
+			padding: 20px 0px;
+			font-size: 19px;
+			color: #3e3e3e;
+			line-height: 22px;
+		}
+			.testimonials .testimonials-left blockquote  strong{
+				font-weight: 600;
+			}
+		.testimonials .testimonials-left footer{
+			text-transform: uppercase;
+			font-size: 12px;
+			font-weight: bold;
+			color: #ababab;
+		}
+	.testimonials .testimonials-right{
+		width: 30%;
+		float: right;
+		text-align: right;
+		margin-bottom: 45px;
+	}
+/*===========================FOOTER==========================*/
+.nav-footer,
+.copyright{
+	width: 1090px;
+}
+.nav-footer{
+	height: 160px;
+	margin:40px auto 0px;
+}
+	.nav-footer .footer-left{
+		float: left;
+	}
+		.nav-footer .footer-left ul{
+			float: left;
+		}
+		.nav-footer .footer-left ul.navigation-list{
+			width: 210px;
+		}
+		.nav-footer .footer-left ul.resources-list{
+			width: 220px;
+		}
+			.nav-footer .footer-left ul li:first-child,
+			.nav-footer .footer-right ul li:first-child{
+				margin-bottom: 15px;
+				text-transform: uppercase;
+				font-size: 12px;
+				font-weight: 800;
+			}
+			.nav-footer .footer-left ul li a{
+				font-size: 10px;
+				color: #008cba;
+				text-transform: capitalize;
+			}
+	.nav-footer .footer-right{
+		float: right;
+		width: 260px;
+		background: url(http://i.imgur.com/zs1Qpfo.png) bottom right no-repeat;
+	}
+		.nav-footer .footer-right ul li{
+			font-size: 10px;
+			line-height: 15px;
+		}
+.copyright{
+	clear: both;
+	margin:40px auto;
+}
+	.copyright p{
+		font-size: 10px;
+		color: #404040;
+	}

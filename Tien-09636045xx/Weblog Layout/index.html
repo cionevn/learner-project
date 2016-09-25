@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cart | CiOne Blog</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<header id="header">
+			<h1 class="hidden">Shopping Cart</h1>
+			<ul class="shop-link float-left">
+			 	<li><a href="#">Shop</a></li>
+			 	<li><span>&nbsp;</span></li>
+			 	<li><a href="#">Cart</a></li>
+			</ul>
+			<ul id="shop-info" class="float-right">
+			 	<li><a href="#">Order Status</a></li>
+			 	<li><span>2</span></li>
+			 	<li><a href="#">Item</a></li>
+			</ul>
+		</header>
+		<!-- end: header -->
+		<main class="clearfix">
+			<section id="section-main">
+				<h2 id="title">Your cart</h2>
+				<section id="title-info" class="line">
+					<h2 class="hidden">Title Cart</h2>
+					<ul class="float-right">
+						<li>Price</li>
+						<li>Quantity</li>
+						<li>Total</li>
+					</ul>
+				</section>
+				<section class="cart-item line clearfix">
+					<h2 class="hidden">Replacement Tips and Eraser</h2>
+					<div class="item-info">
+						<img src="http://i.imgur.com/knODu5z.png" alt="Replacement Tips and Eraser" class="float-left">
+						<span class="item-name float-left">Replacement Tips and Eraser</span>
+						<p class="item-description">For Pencil</p>
+					</div>
+					<div class="item-price">
+						<span class="price">$7.95</span>
+					</div>
+					<div class="item-quantity">
+						<span class="quantity">1</span>
+						<button class="btndiv">-</button>
+						<button class="btnadd">+</button>
+					</div>
+					<div class="item-cash">
+						<span class="cash">$7.95</span>
+					</div>
+				</section>
+				<section class="cart-item line clearfix">
+					<h2 class="hidden">Pencil</h2>
+					<div class="item-info">
+						<img src="http://i.imgur.com/wHCF6Xb.jpg" alt="Pencil" class="float-left">
+						<span class="item-name float-left">Replacement Tips</span>
+						<p class="item-description">Walnut + MagneticSnap</p>
+					</div>
+					<div class="item-price">
+						<span class="price">$59.95</span>
+					</div>
+					<div class="item-quantity">
+						<span class="quantity">1</span>
+						<button class="btndiv">-</button>
+						<button class="btnadd">+</button>
+					</div>
+					<div class="item-cash">
+						<span class="cash">$59.95</span>
+					</div>
+				</section>
+			</section>
+		</main>
+		<!-- end: main -->
+		<footer class="clearfix">
+			<div class="cart-total">
+				<span id="total">Total $67.90</span>
+			</div>
+			<div class="cart-shipping">
+				<span>Shipping to:</span><br/>
+				<select name="select_ship" id="select_ship">
+					<option value="0">&nbsp;</option>
+					<option value="1">TP.HCM</option>
+					<option value="2">Hà Nội</option>
+					<option value="3">Cà Mau</option>
+				</select>
+			</div>
+			<div class="cart-checkout">
+				<button id="btncheckout"><span id="text-checkout">Checkout</span><span id="arrow">&nbsp;</span></button>
+			</div>
+		</footer>
+		<!-- end: footer -->
+	</div>
+</body>
+</html>

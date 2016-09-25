@@ -1,0 +1,12 @@
+@font-face{
+	font-family: 'myFontRegular';
+	src: url('../fonts/avenirnextltpro-regular.svg') format('svg');
+	src: url('../fonts/avenirnextltpro-regular.ttf') format('truetype'),
+		 url('../fonts/avenirnextltpro-regular.woff') format('woff')	 
+}
+@font-face{
+	font-family: 'myFontBold';
+	src: url('../fonts/avenirnextltpro-bold.svg') format('svg');
+	src: url('../fonts/avenirnextltpro-bold.ttf') format('truetype'),
+		 url('../fonts/avenirnextltpro-bold.woff') format('woff');
+}
