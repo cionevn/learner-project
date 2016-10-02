@@ -1,0 +1,107 @@
+@media screen and (min-width: 481px), screen and (min-width:768px){
+    
+    /*---------------clear-fix------------*/
+    .clear-fix{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /*--------------position--------------*/
+
+    .float-left{
+        float: left;
+    }
+
+    .float-right{
+        float: right;
+    }
+    
+    /*-----------------header------------------*/
+    .header{
+        width: 80%;
+        padding: 22px 128px 16px;
+    }
+    
+    .search{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+    
+    
+    /*-----------------nav------------------*/
+    .nav{
+        padding: 0 128px;
+    }
+    
+    .nav li{
+        display: inline-block;
+        border: none;
+        text-align: center;
+        padding: 0 24px;
+        border-right: 1px solid white;
+    }
+    
+    .nav li:last-child{
+        border:none;
+    }
+    
+    /*-----------------banner------------------*/
+    .banner {
+        padding: 66px 204px;
+    }
+    .banner-right{
+        width: 55%;
+        padding-left: 100px;
+    }
+    
+    /*-----------------category------------------*/ 
+    .category{
+        padding-left: 128px;
+    }
+    
+    .category>ul{
+        padding: 0;
+    }
+    .category li{
+        display: inline-block;
+        padding: 25px 100px 21px 24px;
+        margin-right: 50px;
+    }
+    
+    /*-----------------feauture products------------------*/
+    
+    .feature-product{
+        text-align: left;
+    }
+    
+    .feature-product h2{
+        padding-left: 170px;
+    }
+    
+    .product{
+        padding-left: 170px;
+    }
+    
+    .product li{
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        height: 226px;
+    }
+    
+    /*-----------------footer------------------*/
+    footer{
+        margin-top: 51px;
+        
+    }
+    footer>nav{
+        padding-left: 170px;
+    }
+    
+    .footer-nav>li{
+        display: inline-block;
+        margin-right: 105px;
+    }
+}

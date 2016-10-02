@@ -1,0 +1,248 @@
+body{
+    font-family: 'BebasNeue', sans-serif;
+}
+
+/*----------------disable----------------*/
+.nav>h2{
+    display: none;
+}
+
+
+
+/*----------------header--------------*/
+.header{
+    text-align: center;
+    
+}
+.logo>h1{
+    font-family: 'Lobster', sans-serif;
+    font-size: 49px;
+    color: #3cc3b5;
+    margin: 0;
+    
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    padding: 6px 12px;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+}
+
+.search i{
+    color: #e3e3e3;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.cart{
+}
+
+.cart span{
+    font-size: 33px;
+    color: #a1a1a1;
+    margin-left: 17px;
+}
+
+/*--------------------navigator-------------------*/
+.nav{
+    background-color: #4ccfc1;
+}
+.nav>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li{
+    font-size: 21px;
+    line-height: 37px;
+    border-bottom: 1px solid white;
+    padding-left: 25px;
+}
+
+.nav li:hover{
+    background-color: chartreuse;
+}
+.nav li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*---------------------banner---------------------*/
+.banner{
+    background-color: #41c4b2;
+    padding: 20px 0;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 18px;
+}
+
+.banner h2{
+    font-size: 61px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.banner p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 24px;
+    padding-left: 10px;
+}
+
+.banner a{
+    font-size: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 20px;
+    margin: 20px 0 0 10px;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+/*---------------------category---------------------*/
+.category>ul{
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+.category>ul ul{
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.category>ul ul>li{
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.shop{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+
+
+
+.category a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #3cc395;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/*---------------------feature product---------------------*/
+.feature-product{
+    text-align: center;
+    
+}
+.feature-product h2{
+    font-size: 31px;
+    color: white;
+    margin: 0;
+    line-height: 67px;
+    background-color: #3cc1b8;
+}
+
+.product>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product li{
+    padding: 44px 44px 35px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 5px solid #3cc395;
+    margin: 20px 10px;
+}
+.product img{
+    max-width: 100%;
+    height: 116px;
+}
+
+.product-branded{
+    font-size: 27px;
+    color: #afafaf;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.product a{
+    text-decoration: none;
+    font-size: 20.19px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #3cc395;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+/*---------------------footer--------------------------*/
+footer{
+   
+}
+footer ul{
+    list-style: none;
+    padding: 0 0 0 10px;
+}
+footer>nav{
+    background-color: #3cc3b5;
+    padding: 20px 0;
+}
+.footer-nav>li{
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-nav h3{
+    margin: 0;
+}
+.footer-nav li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+    line-height: 30px;
+}
+
+.footer-nav li>a{
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2da89b;
+    
+}
+
+.footer>p{
+    font-family: 'MyriadPro', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    line-height: 45px;
+    color: white;
+}
