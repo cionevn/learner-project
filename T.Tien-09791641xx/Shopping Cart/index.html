@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping cart</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="bg-main">
+		<div id="container">
+			<div id="header" class="clear">
+				<div id="header-left" class="fl-left">
+					<ul>
+						<li><a href="#">Shop</a></li>
+						<li><img src="images/sprite-text-chevrons-black.png" alt="sprite text"></li>
+						<li><a href="#"><p>Cart</p></a></li>
+					</ul>
+				</div>
+				<div id="header-right" class="fl-right">
+					<ul>
+						<li><a href="#">Order Status</a></li>
+						<li>
+							<div class="item">
+								<label>2</label>
+								<a href="#" id="item">Item</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--end header-->
+			<div id="section">
+				<div id="header-content">
+					<h1>Your cart</h1>
+					<ul class="fl-right">
+						<li>Total</li>
+						<li>Quantity</li>
+						<li>Price</li>
+					</ul>
+				</div><!--end header content-->
+				<div class="content clear-fix">
+						<div class="product-images fl-left">
+							<img src="images/grande.png" alt="Eraser and Replacement">
+						</div>
+						<div class="product-detail fl-left">
+							<h2>Replacement Tips and Eraser</h2>
+							<p>For Pencil</p>
+						</div>
+						<div class="price-1 fl-right">
+							$7.95
+						</div>
+						<div class="product-sum fl-right">
+							<form>
+								<span>1</span>
+								<input type="submit" value="-" class="tru">
+								<input type="submit" value="+" class="cong">
+							</form>
+						</div>
+						<div class="price-2 fl-right">
+							$7.95
+						</div>
+				</div><!--end content-->
+
+				<div class="content clear-fix">
+						<div class="product-images fl-left">
+							<img src="images/pencil.jpg" alt="Pencil">
+						</div>
+						<div class="product-detail fl-left">
+							<h2>Pencil</h2>
+							<p>Walnut+Magnetic Snap</p>
+						</div>
+						<div class="price-1 fl-right">
+							$59.95
+						</div>
+						<div class="product-sum fl-right">
+							<form>
+								<span>1</span>
+								<input type="submit" value="-" class="tru">
+								<input type="submit" value="+" class="cong">
+							</form>
+						</div>
+						<div class="price-2 fl-right">
+							$59.95
+						</div>
+				</div><!--end content-->
+				<div id="total" class="clear-fix">
+					<ul>
+						<li>$67.90</li>
+						<li>Total</li>
+					</ul>
+				</div>
+				<div id="footer" class="clear-fix">
+					<div class="footer-left">
+						<p>Shipping to:</p><br>
+						<select name="select-ship" id="select-ship">
+							<option value="0">&nbsp;</option>
+							<option value="1">Canada</option>
+							<option value="2">Singapore</option>
+						</select>
+					</div>
+					<div class="footer-right">
+						<button id="btn-checkout">
+							<span>Checkout</span>
+							<span id="muiten">&nbsp;</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

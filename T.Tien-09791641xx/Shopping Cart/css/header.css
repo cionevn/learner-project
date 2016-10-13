@@ -1,0 +1,43 @@
+#bg-main{
+	background-color: #FFFCF5;
+	font-family: "avenirnextltpro-regular", Arial, Helvetica, sans-serif;
+}
+#header{
+	padding: 40px 0px;
+	overflow: auto;
+}
+#header-left ul li a, #header-right ul li a{
+    text-decoration: none;
+}
+
+#header-left ul li, #header-right ul li{
+    display: inline-block;
+}
+#header-left ul li a{
+	font-size: 26px;
+	color: #403D39;
+}
+#header-left ul li p{
+	font-size: 26px;
+	color: #A49E93;
+}
+#header-right ul li>a{
+	font-size: 16px;
+	color: #A49E93;
+	padding-right: 10px;
+}
+.item>a{
+	font-family: "avenirnextltpro-bold", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	color: #A49E93;
+}
+
+.item label{
+	font-family: "avenirnextltpro-bold", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	color: #FFFCF5;
+	background-image: url("../images/cart_icon_sprite.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 19px 15px;
+}

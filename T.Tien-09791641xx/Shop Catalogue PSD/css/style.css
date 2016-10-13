@@ -1,0 +1,44 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'section.css';
+@import 'footer.css';
+@import 'font-awesome.min.css';
+@font-face {
+  font-family: "Lobster";
+  src:url("../fonts/Lobster.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BebasNeue";
+  src:url("../fonts/BebasNeue.otf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src:url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+.fl-left{
+	float: left;
+}
+.fl-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.container{
+	width: 996px;
+	margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+    content: "";
+    display: table;
+}
+.hidden{
+	display: none;
+}
+body{
+	font-family:"BebasNeue", Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 16px;
+}

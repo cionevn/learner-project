@@ -1,0 +1,170 @@
+.features p, .notified-left p,.testimonials-main p, input#txtEmail, p.quote{
+	color: #848484;
+	font-size: 18px;
+	line-height: 24px;
+}
+.testimonials-main, ul.menu-footer, .features{
+	text-align: center;
+}
+
+ul.icon-header li a, .features a, ul.icon-botton >li a{
+	border-radius: 50%;
+	display: block;
+	text-decoration: none;
+}
+#get-notified, #footer{
+	background-color: #e3e3e3;
+}
+.features {
+    width: 380px;
+    margin: 60px 0;
+}
+
+.features a{
+	width: 70px;
+	height: 70px;
+	background-color: #2ecc71;
+	margin-left: 160px;
+}
+.features i{
+	color: #fff;
+	font-size: 30px;
+	display: block;
+    line-height: 70px;
+}
+.features h2, .notified-left h2{
+	font-family: "Raleway-SemiBold", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	padding: 10px 0;
+}
+
+/*get-notified*/
+.notified-left{
+	width: 60%;
+}
+.notified-left{
+	width: 40%;
+}
+.notified-main{
+	padding: 58px 0;
+}
+input#txtEmail {
+    border: 1px solid #c8c8c8;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    height: 50px;
+    width: 250px;
+    padding: 0 20px;
+}
+input#btnNotify{
+	height: 52px;
+    width: 110px;
+	border-radius: 0 20px 20px 0;
+	border: 1px solid #2ecc71;
+	color: #fff;
+	font-size: 22px;
+	font-family: "Raleway-SemiBold", Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	position: absolute;
+    top: 0px;
+    right: 54px;
+}
+input#btnNotify:hover{
+	border: 1px solid #20b35e;
+	background-color: #20b35e;
+}
+.notified-left form{
+	position: relative;
+	margin: 20px 0;
+}
+.notified-right video{
+	border-radius: 10px;
+}
+
+/*testimonials*/
+ul.list-member {
+	margin-bottom: 60px;
+}
+ul.list-member >li{
+	display: inline-block;
+}
+ul.list-member >li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+ul.list-member >li a:hover{
+	background-color: #2ecc71;
+}
+ul.list-member li img{
+	width: 50px;
+	height: 50px;
+}
+.testimonials-main{
+	position: relative;
+}
+img.hovereffect{
+	position: relative;
+}
+
+p.quote{
+	margin:60px 0 30px 0;
+}
+.testimonials-main h2{
+	font-size: 24px;
+	font-family: "Raleway-SemiBold", Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
+}
+
+.testimonials-main blockquote p{
+	margin-bottom: 30px;
+	font-style: italic;
+}
+p.author{
+	font-size: 18px;
+	font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
+	color: #333;
+}
+p.get-in-touch{
+	margin-bottom: 30px;
+}
+ul.icon-botton{
+	margin-bottom: 60px;
+}
+ul.icon-botton >li{
+	display: inline-block;
+}
+ul.icon-botton >li a{
+	width: 40px;
+	height: 40px;
+	background-color: #d4d4d4;
+}
+ul.icon-botton >li i{
+	color: #fff;
+	display: block;
+    line-height: 40px;
+    font-size: 20px;
+}
+ul.icon-botton >li a:hover{
+	background-color: #2ecc71;
+}
+img.hovereffect{
+	width: 50px;
+	height: 50px;
+	z-index: 1;
+}
+img.hovereffect:hover{
+	z-index: 2;
+	opacity: 0.5;
+ 	-webkit-transition: all .3s linear;
+}
+ul.list-mask li{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-color: #82e0aa;
+	top: -113px;
+    left: 0px;
+}
