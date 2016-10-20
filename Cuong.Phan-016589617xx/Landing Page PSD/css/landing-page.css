@@ -1,0 +1,221 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+	font-family: Raleway-Bold;
+	src: url('../font/Raleway-Bold.ttf');
+}
+@font-face {
+	font-family: Pacifico;
+	src: url('../font/Pacifico.ttf');
+}
+@font-face {
+	font-family: helveticaneueitalic;
+	src: url('../font/helveticaneueitalic.ttf');
+	font-weight: italic;
+}
+@font-face {
+	font-family: helveticaneuemedium;
+	src: url('../font/helveticaneuemedium.ttf');
+}
+@font-face {
+	font-family: helveticaneue;
+	src: url('../font/helveticaneue.ttf');
+}
+@font-face {
+	font-family: Raleway-Black;
+	src: url('../font/Raleway-Black.ttf');
+}
+@font-face {
+	font-family: Raleway.semi.Bold;
+	src: url('../Raleway-SemiBold.ttf');
+	font-weight: bold; 
+}
+body {
+	position: relative;
+}
+header{
+	height: 610px;
+	background-image: url('../images/bg-header.png');
+	background-repeat: no-repeat;
+}
+header>div {
+	padding-left: 220px;
+	padding-top: 130px;
+	color: white;
+}
+header>div>h1 {
+	font-family: Pacifico;
+	font-size: 60pt;
+	color: white;
+	margin-bottom: 36px;
+}
+header>div>p {
+	font-family: helveticaneuemedium;
+	font-size: 24pt;
+	width: 520px;
+	margin-top: 10px;
+	margin-bottom: 26px;
+}
+/* section -  features */
+section div {
+	margin: 40px 20px 50px 60px;
+}
+section li{
+	list-style-type: none;
+	display: inline-block;
+	width: 400px;
+	font-size: 14pt;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+section img {
+	display: block;
+	margin: 15px auto;
+	
+}
+section h2 {
+	font-family: Raleway.semi.Bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+section p {
+	font-family: helveticaneue;
+	text-align: center;
+	color: #848484;
+}
+/*aside*/
+/* get notified of any updates */
+aside {
+	position: relative;
+	background-color: #e3e3e3;
+}
+.get-notified {
+	width: 600px;
+	margin-top: 30px;
+	margin-left: 80px;
+	margin-bottom: 120px;
+
+}
+.get-notified>p {
+	font-family: helveticaneue;
+	font-size: 16pt;
+	color: #848484;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+/* xem lại cách đặt tên selector*/
+aside>div {
+	display: inline-block;
+}
+aside h2 {
+	font-family: Raleway.semi.Bold;
+	font-size: 22pt;
+	padding: 30px 20px;
+}
+aside>img {
+	float: right;
+	position: relative;
+	top: 60px;
+	right: 100px;
+}
+.email-addres {
+	height: 40px;
+	width: 250px;
+	margin-left: 20px;
+	padding-left: 30px;
+	border-color: #2ecc71;
+	border-style: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	outline: none;
+}
+.notify-botton {
+	height: 40px;
+	width: 80px;
+	font-family: Raleway-Bold;
+	background-color: #2ecc71;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	outline: none;
+	border-color: transparent;
+	position: relative;
+	top: 3px;
+	right: 4px;
+}
+/*article */
+article	{
+	background-color: #ffffff;
+	margin: 20px auto;
+	padding: 5px;
+	text-align: center;
+}
+article>div>h4{
+	font-family: Raleway.semi.Bold;
+	font-size: 24pt;
+	margin-top: 20px;
+}
+.testimonials blockquote {
+	font-family: helveticaneueitalic;
+	color: #848484;
+	font-size: 18pt;
+	width: 1150px;
+	margin: 25px auto;
+}
+.people-relative{
+	width: 1160px;
+	margin: 25px auto;
+}
+.social-media {
+	margin: 50px auto;
+}
+.social-media>p {
+	font-family: HelveticaNeue;
+	font-size: 16pt;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.social-media>a {
+	margin:5px;
+}
+/*footer*/
+footer {
+	font-family: HelveticaNeue;
+	font-size: 16pt;
+
+	background-color: #e3e3e3;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+footer ul {
+	text-align: center;
+}
+footer li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 8px;
+}
+footer li a {
+	text-decoration: none;
+	color: #848484;
+}
+/*ẩn text làm heading */
+.hidden {
+	text-indent: -9999px;
+	width: 0px;
+	height: 0px;
+}
+/* clear-fix */
+.clear-fix:after, .clear-fix:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.clear-fix {
+	*zoom : 1;
+}
